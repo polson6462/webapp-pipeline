@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    WEB_HOST = "WEB_SERVER_IP_HERE"
+    WEB_HOST = "172.31.22.108"
     WEB_USER = "ec2-user"
   }
 
